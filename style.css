@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: black;
+}
+/* Shared-styles */
+.bg-tomato{
+    background-color: tomato;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 19px;
+}
+.dispay-flex{
+    display: flex;
+}
+.text-gray{
+    color: rgba(255, 255, 255, 0.5);
+}
+.bg-black{
+    background-color: black;
+}
+
+
+
+/* header-styles */
+.header{
+    background:linear-gradient(0.6deg, rgb(10, 10, 10) 10%, rgb(51, 48, 48) 78.9%);
+    
+}
+/* nav-style */
+#brand{
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+.nav-bar{
+    justify-content: space-between;
+    padding: 40px 190px;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-items{
+    justify-content:space-between;
+    gap: 90px;
+    padding: 15px;
+}
+/* banner-style */
+.banner{
+    margin: 20px 190px;
+    justify-content: space-between;
+    gap: 167px;
+}
+.banner-info{
+    margin: 50px 0;
+}
+.banner-title{
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    
+}
+#shape{
+    font-family: "Arizonia", cursive;
+    font-weight: 300;
+    font-size: 5rem;
+}
+
+.btn-1{
+    padding: 17px 45px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+
+
+}
+.btn-2{
+    background-color: transparent;
+    padding: 17px 45px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 40px 20px;
+    font-size: 1.2rem;
+}
+.number-1{
+    font-size: 3.6rem;
+    font-weight: 900;
+    text-align: center;
+}
+.number-2{
+    font-size: 2.3rem;
+    font-weight: 900;
+    
+}
+.badge-desc{
+    text-align: center;
+}
+.badge-1{
+    width: 193px;
+    background-color:  rgba(255, 255, 255, 0.149);
+    padding: 10px;
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 240px;
+    margin-top: -450px;
+    
+
+}
+.badge-2{
+    width: 193px;
+    background-color:  rgba(80, 73, 73, 0.585);;
+    position: absolute;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: -120px;
+    margin-top: -200px;
+    justify-content:space-around;
+    gap: 10px;
+    
+}
+.circle{
+    background-color: tomato;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 300px;  
+    align-self: center;
+}
+
+/* change-your-habits-section */
+.habit-title{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.habit-header{
+    text-align: center;
+    margin-top: 100px;
+}
+.habits-card-container{
+    margin: 60px 190px;
+    justify-content: space-between;
+}
+.habit-image{
+    border-radius: 100px;
+}
+.habit-card-item{
+    text-align: center;
+}
+.habit-card-item > h4{
+   margin: 15px 0;
+
+}
+/* run-section */
+.run-section{
+    justify-content: space-between;
+    gap: 60px;
+    margin: 30px 190px;
+    padding: 40px 90px;
+    background-color: rgba(47, 49, 49, 0.751);
+    border-radius: 50px;
+}
+.run-title{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.run-desc{
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 25px;
+}
+.run-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+
+}
+.btn-3{
+    padding: 13px 55px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+/* meet-our-team-section */
+.team-mem-info{
+    text-align: start;
+    margin-left:30px;
+    margin-top: -50px;
+}
+.team-image{
+    width: 20rem;
+    height: 16rem;
+    border-radius: 20px;
+}
+.team-image-container{
+    margin: 30px 190px;
+    padding: 40px 20px 50px;
+    background-color: rgba(47, 49, 49, 0.751);
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 40px;
+}
