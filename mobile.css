@@ -80,4 +80,40 @@
         border-radius: 40px;
     
     }
+    .advantage-container{
+        margin-top: 30px;
+        padding: 30px 20px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .calculator{
+        flex-direction: column;
+    }
+    .chart-table{
+        padding: 39px 60px;
+    
+    }
+    input{
+        width: 110px;
+        padding: 20px 30px;
+    }
+    .input-5{
+        width: 350px;
+    }
+    .form-container{
+        row-gap: 20px;
+        column-gap: 0px;
+    }
+    .team-image-container{
+        margin: 30px 20px;
+        padding: 40px 20px 50px;
+        display: flex;
+        flex-direction: column;
+    } 
+    .team-mem-info{
+        margin-left:60px;
+    }
+    .team-image{
+        height: 20rem;
+    }   
 }
