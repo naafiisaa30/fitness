@@ -115,5 +115,33 @@
     }
     .team-image{
         height: 20rem;
-    }   
+    }  
+    .footer{
+        padding: 36px 20px;
+    } 
+    .footer-container{
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+    }
+    .footer-left{
+        width: 100%;
+    }
+    .footer-right{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .right-1{
+        width: 100%;
+    }
+    .get-started{
+        font-size: 2.3rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .footer-item{
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
 }
