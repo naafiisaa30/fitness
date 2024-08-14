@@ -1,0 +1,54 @@
+/* mobile-device */
+@media screen and (max-width:576px){
+    .nav-items{
+        display: none;
+    }
+    .nav-bar{
+        padding: 52px 20px;
+    }
+    .menu{
+        visibility: visible;
+    }
+    .banner{
+        margin: 10px 20px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .banner-info{
+        margin: 10px 0;
+    }
+    .banner-title{
+        font-size: 3rem;
+        
+    }
+    .btn-1{
+        padding: 12px 30px;
+        font-size: 1rem;
+        margin-top: 30px;
+    }
+    .btn-2{
+        padding: 12px 30px;
+        margin: 40px 20px;
+        font-size: 1rem;
+    }
+    .badge-1{
+        width: 133px;
+    }
+    .badge-2{
+        width: 133px;
+        margin-left: -60px;
+        margin-top: -300px;  
+    }
+    .circle{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 300px;  
+    }
+    .number-1{
+        font-size: 2.6rem;
+        font-weight: 700;
+    }
+    .banner-image{
+        margin: 60px;
+    }
+}

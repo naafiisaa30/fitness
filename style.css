@@ -351,18 +351,26 @@ input{
 }
 
 
+/* 
 
-
-/* mobile-device */
+mobile-device
 @media screen and (max-width:576px){
     .nav-items{
         display: none;
+    }
+    .nav-bar{
+        padding: 40px 20px;
     }
     .menu{
         visibility: visible;
     }
     .banner{
-        flex-direction: column-reverse;
+        margin: 20px 40px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .banner-info{
+        margin: 10px 0;
     }
     
-}
+} */
