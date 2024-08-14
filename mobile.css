@@ -51,4 +51,33 @@
     .banner-image{
         margin: 60px;
     }
+    .habit-title{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .habit-header{
+        margin-top: 50px;
+    }
+    .habits-card-container{
+        margin: 30px 20px;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .run-section{
+       flex-direction: column;
+        gap: 60px;
+        margin: 30px 20px;
+        padding: 40px 60px;
+    }
+    .btn-3{
+        padding: 10px 120px;
+        font-size: 1.1rem;
+        margin-top: 30px;
+    }
+    .run-image{
+        width: 340px;
+        height: 250px;
+        border-radius: 40px;
+    
+    }
 }
