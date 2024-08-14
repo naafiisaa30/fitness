@@ -349,28 +349,3 @@ input{
     margin-bottom: 30px;
     border-radius: 30px;
 }
-
-
-/* 
-
-mobile-device
-@media screen and (max-width:576px){
-    .nav-items{
-        display: none;
-    }
-    .nav-bar{
-        padding: 40px 20px;
-    }
-    .menu{
-        visibility: visible;
-    }
-    .banner{
-        margin: 20px 40px;
-        flex-direction: column;
-        gap: 30px;
-    }
-    .banner-info{
-        margin: 10px 0;
-    }
-    
-} */

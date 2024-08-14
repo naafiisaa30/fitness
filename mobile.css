@@ -1,6 +1,6 @@
 /* mobile-device */
 @media screen and (max-width:576px){
-    .nav-items{
+    .nav-item{
         display: none;
     }
     .nav-bar{
